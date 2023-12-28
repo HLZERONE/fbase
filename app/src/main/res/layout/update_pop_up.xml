@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:id="@+id/updateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:gravity="center"
+        android:background="@color/mainColor"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/updateNameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Name"
+        android:gravity="center"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/updateName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:background="@drawable/round"
+        />
+
+    <TextView
+        android:id="@+id/updateCourseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Course"
+        android:gravity="center"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/updateCourse"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:background="@drawable/round"
+        />
+    <TextView
+        android:id="@+id/updateEmailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Email"
+        android:gravity="center"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/updateEmail"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:background="@drawable/round"
+        />
+    <TextView
+        android:id="@+id/updateImgTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Image Url"
+        android:gravity="center"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/updateImg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:background="@drawable/round"
+        />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Update" />
+
+
+</LinearLayout>

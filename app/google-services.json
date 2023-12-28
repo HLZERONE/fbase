@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353820767905",
+    "project_id": "fbase-3928f",
+    "storage_bucket": "fbase-3928f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353820767905:android:a97a125cc344701aa2e2e0",
+        "android_client_info": {
+          "package_name": "com.example.fbase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVOkdLYLKdR35A_HnEd229l2TR3IOTxKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
